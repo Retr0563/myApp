@@ -1,5 +1,10 @@
 import "./App.css";
+import Dashboard from "./components/Dashboard";
 const App = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div>
+      <Dashboard />
+    </div>
+  );
 };
 export default App;
